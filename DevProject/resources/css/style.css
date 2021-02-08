@@ -1,0 +1,92 @@
+body {
+ font-size: 1.2em;
+}
+
+.grid {
+  display: grid;
+  grid-template:  5% 15% 15% 10% 15% 15% 10% 10% 5% / repeat(11, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: auto;
+}
+
+.logo {
+  text-align: center;
+ }
+
+ .about {
+   text-align: center;
+   font-size: 28px;
+   grid-column-start: 4;
+   grid-column-end: 10;
+   font-family: serif;
+   font-weight: bold;
+   font-family: 'Lalezar', cursive;
+ }
+
+h1 {
+  color: Black;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+.founder {
+    grid-area: 7 / 1 / 10 / 5;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+}
+
+.networking {
+   grid-area: 2 / 1 / 4 / 4;
+}
+
+.synergy {
+   grid-area: 2 / 5 / 4 / 8;
+}
+
+.touchdown {
+   grid-area: 2 / 9 / 4 / 13;
+}
+
+.networking, .synergy, .touchdown {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+
+.quotes {
+  grid-area: 4 / 1 / 5 / 3;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+.one {
+  grid-area: 4 / 3 / 5 / 7;
+}
+
+.two {
+  grid-area: 4 / 7 / 5 / 11;
+}
+
+.three {
+  grid-area: 4 / 11 / 5 / 13;
+}
+
+.values {
+  grid-area: 6 / 1 / 7 / 7;
+  font-family: 'Fjalla One', sans-serif;
+  background-color: #0a5d84;
+  color: white;
+  opacity: 0.8;
+}
+
+ .one, .two, .three {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  background-color: #29a3db;
+}
+
+audio {
+  grid-area: 9 / 11 / 9 / 12;
+}
